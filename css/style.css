@@ -242,7 +242,8 @@ main {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 .image-box img {
-  width: 200px;
+  margin-top: 10px;
+  width: 150px;
   height: auto;
 }
 /* luas */

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartCalc</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- web icon -->
+    <link
+      rel="icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAbxJREFUSEvtltFtwzAMRHmbxJO0maT1JG0maTJJ20nqTdieQBqMLFuyAjQ/ERAgkC098niUDLnTwJ248gD/m/JNUqvqQUQ+ROT57/cF4MgIVfVVRJ5sfhKRiz3n/81RBWdQbjZy8xBIDuCzEcAmfBPcCCXoO2TOQI4AOL86VsEG/QkrS5meAYyqyhIwQ5bkAODcJfVO6KfV+ATgvQb054uMO6HcL4Et+xfLnvNFw12Bb4Amp6sqnU+nVw2Xg122Nfd6TeN7Do1zXM86s+as/6zIQuos25Mt9N5NG5mRatDY5wRTgTcDDt5mc8aqSmOkFwAgk20XNKz1urM7GAT7Ozk+ghkZM+QYLAjO+eKmTFcC1lzuCGYtuHl0KHtyUtUe6ARgiEoyoYXUpOUAOxQYEGXiKBmp5GiHRhXn2l9JbWACmJ2DYlts1Tm2UQma5uJmxSPTbh0eAhzp1uHZm8nWmukCusg4RlT6H4xzE7QZbAowcmbthtstb1Xq+EJ2sPCqo/TRcE01zRWsfgiY6fwAyNe75NG9xZp2gQ3Ok42fOXR8uvz9FLLa+2cR7+3qaMq4ukvHCw9wh2h9S+4m9S+mJlcuNUrLKQAAAABJRU5ErkJggg=="
+      type="image/x-icon"
+    />
+  </head>
+  <body id="1">
+    <header>
+      <nav>
+        <div class="nav-logo">
+          <i class="bx bxl-squarespace"></i>
+          <p>SmartCalc</p>
+        </div>
+        <div class="nav-menu">
+          <ul>
+            <li><a href="#1">Home</a></li>
+            <li><a href="#2">Feature</a></li>
+            <li><a href="#3">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-auth">
+          <button class="button">
+            Login
+            <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+              <path
+                clip-rule="evenodd"
+                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <button>Sign Up</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="sphere">
+        <img src="https://sight-sphere.vercel.app/Aset/gradient3.svg" alt="" />
+      </section>
+      <section class="headtext">
+        <article>
+          <h1>Revolutionizing Calculations</h1>
+          <h1>with Smart Technology</h1>
+          <p>
+            SmartCalc simplifies all your calculation needs with an intuitive
+            interface and advanced features.
+          </p>
+        </article>
+
+        <figure>
+          <img
+            src="https://cdn3d.iconscout.com/3d/premium/thumb/calculator-3254500-2725075.png?f=webp"
+            alt=""
+          />
+        </figure>
+      </section>
+      <section id="2" class="feature">
+        <article>
+          <h2>Feature</h2>
+          <p>Ready to explore? Click on a feature below to get started!</p>
+        </article>
+        <div class="feature-container">
+          <a href="#luas-section" onclick="sectionShow('luas-section')"
+            ><div id="Area" class="feature-box">
+              <div class="fill-box">
+                <figure class="icon-box">
+                  <i class="bx bx-shape-triangle bx-lg" style="color: #fff"></i>
+                </figure>
+                <article>
+                  <h3>Area of Triangle</h3>
+                  <p>
+                    Discover our intuitive calculator for swiftly determining
+                    the area of a triangle. Input the base length and height of
+                    your triangle, and get immediate results. Our tool
+                    guarantees precise area calculations for triangles of any
+                    dimensions.
+                  </p>
+                </article>
+                <figure class="image-box">
+                  <img
+                    src="https://sight-sphere.vercel.app/Aset/47.svg"
+                    alt=""
+                  />
+                </figure>
+              </div></div
+          ></a>
+          <a href="#keliling-section" onclick="sectionShow('keliling-section')"
+            ><div id="perimeter" class="feature-box">
+              <div class="fill-box">
+                <figure class="icon-box">
+                  <i class="bx bx-shape-triangle bx-lg" style="color: #fff"></i>
+                </figure>
+                <article>
+                  <h3>Perimeter of Triangle</h3>
+                  <p>
+                    Explore our efficient tool for calculating the perimeter of
+                    any triangle effortlessly. Simply input the lengths of the
+                    triangle's sides, and receive instant results. Our tool
+                    ensures accurate computations for any triangle perimeter.
+                  </p>
+                </article>
+                <figure class="image-box">
+                  <img
+                    src="https://sight-sphere.vercel.app/Aset/97.svg"
+                    alt=""
+                  />
+                </figure>
+              </div></div
+          ></a>
+        </div>
+      </section>
+      <section id="luas-section" class="luas">
+        <article><h2>Area of Triangle</h2></article>
+        <feature
+          ><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbzlUfkLhMR1lJrANIU1Q4HIsoou3L8RP4Au6qvyGZxuX6JdT4EDlQsiBl8om36xlL8nA&usqp=CAU"
+            alt=""
+          />
+        </feature>
+        <article>
+          <div class="rumus">
+            <p>L= 1/2 x a x t</p>
+          </div>
+          <div class="info">
+            <ul>
+              <br />
+              <li>L=Luas</li>
+              <li>A=Panjang Alas</li>
+              <li>T=Tinggi</li>
+            </ul>
+          </div>
+        </article>
+        <form class="hitung-luas">
+          <div>
+            <input class="input-alas" placeholder="Nilai Alas" />
+          </div>
+          <div>
+            <input class="input-tinggi" placeholder="Nilai Tinggi" />
+          </div>
+          <div>
+            <textarea
+              type="text"
+              class="hasil"
+              placeholder="Hasil :"
+              readonly
+            ></textarea>
+          </div>
+          <div class="button-form">
+            <button class="buttons" type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                ></path>
+              </svg>
+              <div class="text">Calculate</div>
+            </button>
+            <button type="button" onclick="resetForm()">Reset</button>
+          </div>
+        </form>
+      </section>
+      <section id="keliling-section" class="keliling">
+        <article><h2>Perimeter of Triangle</h2></article>
+        <feature
+          ><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbzlUfkLhMR1lJrANIU1Q4HIsoou3L8RP4Au6qvyGZxuX6JdT4EDlQsiBl8om36xlL8nA&usqp=CAU"
+            alt=""
+          />
+        </feature>
+        <article>
+          <div class="rumus">
+            <p>K= S1 + S2 + S3</p>
+          </div>
+          <div class="info">
+            <ul>
+              <br />
+              <li>K= Keliling</li>
+              <li>S1= Sisi A</li>
+              <li>S2= Sisi B</li>
+              <li>S3= Sisi C</li>
+            </ul>
+          </div>
+        </article>
+        <form class="hitung-keliling">
+          <div>
+            <input class="input-A" placeholder="Nilai Sisi A" />
+          </div>
+          <div>
+            <input class="input-B" placeholder="Nilai Sisi B" />
+          </div>
+          <div>
+            <input class="input-C" placeholder="Nilai Sisi C" />
+          </div>
+          <div>
+            <textarea
+              type="text"
+              class="hasil"
+              placeholder="Hasil :"
+              readonly
+            ></textarea>
+          </div>
+          <div class="button-form">
+            <button class="buttons" type="button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  ></path>
+                </svg>
+                <div class="text">Calculate</div>
+              </button>
+            <button type="button" onclick="resetForm()">Reset</button>
+          </div>
+        </form>
+      </section>
+      <section id="keliling-section" class="keliling"></section>
+    </main>
+    <footer id="3">
+      <section class="footer-container">
+        <div class="footer-text">
+          <div class="footer-logo">
+            <i class="bx bxl-squarespace"></i>
+            <p>SmartCalc</p>
+          </div>
+        </div>
+        <div class="footer-text">
+          <ul>
+            <p>Follow Me</p>
+            <li>Dribble</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Linkedin</li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <ul>
+            <p>Information</p>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>FAQs</li>
+            <li>Terms</li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <ul>
+            <p>Resources</p>
+            <li>Blog Home</li>
+            <li>Blog Single</li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <ul>
+            <p>Browse</p>
+            <li>About</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </section>
+      <section>© Duta Ardhika 2024 - All rights reserved</section>
+    </footer>
+  </body>
+</html>
+<script src="js/script.js"></script>

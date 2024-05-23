@@ -655,7 +655,6 @@ footer {
     width: 300px;
     height: auto;
   }
-
   .hitung-keliling input {
     width: 300px;
   }
@@ -668,6 +667,19 @@ footer {
   .hitung-luas textarea {
     width: 300px;
   }
+  .buttons{
+    width: 45%;
+    margin-bottom: 30px
+  }
+  .button-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  button.button-reset{
+    margin-top: 10px;
+    width: 45%;
+  } 
   .info {
     width: 300px;
   }

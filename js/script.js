@@ -68,10 +68,11 @@ window.addEventListener("scroll", function () {
 
   // hide and Show
   function sectionShow(sectionToShow) {
+    resetForm()
     // Hide both sections
     document.getElementById("luas-section").style.display = "none";
     document.getElementById("keliling-section").style.display = "none";
 
     // Show the specified section
-    document.getElementById(sectionToShow).style.display = "flex"; // Menggunakan 'flex' untuk menampilkan section
+    document.getElementById(sectionToShow).style.display = "flex"; 
   }

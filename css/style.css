@@ -211,9 +211,11 @@
     height: 510px;
     margin: 0 30px 0 30px;
     background: linear-gradient(180deg, #ffffff0f 30%, #ffffff00 100%);
-    transition: 0.5s ease-in-out;
+    opacity: 60%; /* div tidak akan terlihat secara default */
+    transition: opacity 0.5s ease-in-out; /* efek transisi akan terjadi pada opacity */
   }
   .feature-box:hover {
+    opacity: 100%; /* div tidak akan terlihat secara default */
     background: linear-gradient(180deg, #ffffff0f 30%, #dd00ff3a 100%);
   }
   .fill-box {

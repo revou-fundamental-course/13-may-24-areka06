@@ -37,9 +37,9 @@ window.addEventListener("scroll", function () {
 
     // Check data valid
     if (!isNaN(sisiA) && !isNaN(sisiB) && !isNaN(sisiC)) {
-      calculationSteps += "L= S1 + S2 +S3\n";
-      calculationSteps += `L= ${sisiA} + ${sisiB} + ${sisiC}\n`;
-      calculationSteps += `L= ${sisiA + sisiB + sisiC}\n`;
+      calculationSteps += "K= S1 + S2 +S3\n";
+      calculationSteps += `K= ${sisiA} + ${sisiB} + ${sisiC}\n`;
+      calculationSteps += `K= ${sisiA + sisiB + sisiC}\n`;
 
       document.querySelectorAll(".hasil").forEach(function (input) {
         input.value = calculationSteps;

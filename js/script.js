@@ -8,7 +8,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// Function hitung menghitung luas
+// Function menghitung luas
 function calculateArea() {
   const alas = parseFloat(document.querySelector(".input-alas").value);
   const tinggi = parseFloat(document.querySelector(".input-tinggi").value);

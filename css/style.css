@@ -552,7 +552,7 @@ footer {
     text-align: center;
     width: 400px;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     background: linear-gradient(180deg, #ffffffa3 38.95%, #cef0ff 92.27%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -560,7 +560,7 @@ footer {
   .headtext article P {
     text-align: center;
     font-size: 12px;
-    width: 300px;
+    width: 310px;
   }
   .headtext figure {
     margin: 0;

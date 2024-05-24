@@ -27,6 +27,7 @@
     />
   </head>
   <body id="1">
+    <!-- header -->
     <header>
       <nav>
         <div class="nav-logo">
@@ -55,6 +56,9 @@
         </div>
       </nav>
     </header>
+    <!-- header -->
+
+    <!-- main -->
     <main>
       <section class="sphere">
         <img src="https://sight-sphere.vercel.app/Aset/gradient3.svg" alt="" />
@@ -154,10 +158,10 @@
         </article>
         <form class="hitung-luas">
           <div>
-            <input class="input-alas" placeholder="Nilai Alas" />
+            <input type="number" class="input-alas" placeholder="Nilai Alas" required />
           </div>
           <div>
-            <input class="input-tinggi" placeholder="Nilai Tinggi" />
+            <input type="number" class="input-tinggi" placeholder="Nilai Tinggi" required/>
           </div>
           <div>
             <textarea
@@ -213,13 +217,13 @@
         </article>
         <form class="hitung-keliling">
           <div>
-            <input class="input-A" placeholder="Nilai Sisi A" />
+            <input type="number" class="input-A" placeholder="Nilai Sisi A" required/>
           </div>
           <div>
-            <input class="input-B" placeholder="Nilai Sisi B" />
+            <input type="number" class="input-B" placeholder="Nilai Sisi B" required/>
           </div>
           <div>
-            <input class="input-C" placeholder="Nilai Sisi C" />
+            <input type="number" class="input-C" placeholder="Nilai Sisi C" required/>
           </div>
           <div>
             <textarea
@@ -253,6 +257,9 @@
       </section>
       <section id="keliling-section" class="keliling"></section>
     </main>
+    <!-- main -->
+
+    <!-- footer -->
     <footer id="3">
       <section class="footer-container">
         <div class="footer-text">
@@ -299,6 +306,7 @@
       </section>
       <section>© Duta Ardhika 2024 - All rights reserved</section>
     </footer>
+    <!-- footer -->
   </body>
 </html>
 <script src="js/script.js"></script>

@@ -11,7 +11,8 @@ body {
 a {
   text-decoration: none;
 }
-/* HEADER */
+
+/* Header */
 header {
   background-color: transparent;
   position: fixed;
@@ -72,6 +73,8 @@ nav {
   border-radius: 30px;
   margin-left: 20px;
 }
+/* Header */
+
 /* Button Login */
 .button {
   position: relative;
@@ -142,8 +145,9 @@ nav {
     left: 100%;
   }
 }
+/* Button Login */
 
-/* MAIN */
+/* Main */
 main {
   height: auto;
 }
@@ -211,11 +215,11 @@ main {
   height: 510px;
   margin: 0 30px 0 30px;
   background: linear-gradient(180deg, #ffffff0f 30%, #ffffff00 100%);
-  opacity: 60%; /* div tidak akan terlihat secara default */
-  transition: opacity 0.5s ease-in-out; /* efek transisi akan terjadi pada opacity */
+  opacity: 60%; 
+  transition: opacity 0.5s ease-in-out; 
 }
 .feature-box:hover {
-  opacity: 100%; /* div tidak akan terlihat secara default */
+  opacity: 100%; 
   background: linear-gradient(180deg, #ffffff0f 30%, #dd00ff3a 100%);
 }
 .fill-box {
@@ -246,7 +250,8 @@ main {
   width: 150px;
   height: auto;
 }
-/* luas */
+
+/* Luas */
 .luas {
   display: flex;
   flex-direction: column;
@@ -329,8 +334,8 @@ main {
 #keliling-section {
   display: none;
 }
-
-/* keliling */
+/* Luas */
+/* Keliling */
 .keliling {
   display: flex;
   flex-direction: column;
@@ -386,7 +391,8 @@ main {
 .input-C:focus {
   outline: none;
 }
-/* button calculate */
+/* Keliling */
+/* Button calculate */
 .buttons {
   background-color: #ffffff00;
   color: #fff;
@@ -419,7 +425,11 @@ main {
 .text {
   margin: 0 1.5em;
 }
-/* footer */
+/* Button calculate */
+/* Main */
+
+
+/* Footer */
 footer {
   display: flex;
   flex-direction: column;
@@ -459,6 +469,10 @@ footer {
 .footer-container ul p {
   font-size: 16px;
 }
+/* Footer */
+
+
+/* Responsive */
 @media only screen and (max-width: 600px) {
   .sphere img {
     position: absolute;
@@ -691,3 +705,4 @@ footer {
     margin-bottom: 80px;
   }
 }
+/* Responsive */

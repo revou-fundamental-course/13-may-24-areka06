@@ -6,7 +6,7 @@
     <title>SmartCalc</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,6 +26,7 @@
       type="image/x-icon"
     />
   </head>
+
   <body id="1">
     <!-- header -->
     <header>
@@ -61,7 +62,10 @@
     <!-- main -->
     <main>
       <section class="sphere">
-        <img src="https://sight-sphere.vercel.app/Aset/gradient3.svg" alt="" />
+        <img
+          src="https://sight-sphere.vercel.app/Aset/gradient3.svg"
+          alt="sphere"
+        />
       </section>
       <section class="headtext">
         <article>
@@ -74,10 +78,8 @@
         </article>
 
         <figure>
-          <img
-            src="https://cdn3d.iconscout.com/3d/premium/thumb/calculator-3254500-2725075.png?f=webp"
-            alt=""
-          />
+          <img width="450px" src="asset/ethereum.png" alt="image" />
+          <!-- https://cdn3d.iconscout.com/3d/premium/thumb/calculator-3254500-2725075.png?f=webp -->
         </figure>
       </section>
       <section id="2" class="feature">
@@ -158,10 +160,20 @@
         </article>
         <form class="hitung-luas">
           <div>
-            <input type="number" class="input-alas" placeholder="Nilai Alas" required />
+            <input
+              type="number"
+              class="input-alas"
+              placeholder="Nilai Alas"
+              required
+            />
           </div>
           <div>
-            <input type="number" class="input-tinggi" placeholder="Nilai Tinggi" required/>
+            <input
+              type="number"
+              class="input-tinggi"
+              placeholder="Nilai Tinggi"
+              required
+            />
           </div>
           <div>
             <textarea
@@ -189,7 +201,9 @@
               </svg>
               <div class="text">Calculate</div>
             </button>
-            <button class="button-reset" type="button" onclick="resetForm()">Reset</button>
+            <button class="button-reset" type="button" onclick="resetForm()">
+              Reset
+            </button>
           </div>
         </form>
       </section>
@@ -217,13 +231,28 @@
         </article>
         <form class="hitung-keliling">
           <div>
-            <input type="number" class="input-A" placeholder="Nilai Sisi A" required/>
+            <input
+              type="number"
+              class="input-A"
+              placeholder="Nilai Sisi A"
+              required
+            />
           </div>
           <div>
-            <input type="number" class="input-B" placeholder="Nilai Sisi B" required/>
+            <input
+              type="number"
+              class="input-B"
+              placeholder="Nilai Sisi B"
+              required
+            />
           </div>
           <div>
-            <input type="number" class="input-C" placeholder="Nilai Sisi C" required/>
+            <input
+              type="number"
+              class="input-C"
+              placeholder="Nilai Sisi C"
+              required
+            />
           </div>
           <div>
             <textarea
@@ -235,23 +264,25 @@
           </div>
           <div class="button-form">
             <button class="buttons" type="button">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-                  ></path>
-                </svg>
-                <div class="text">Calculate</div>
-              </button>
-            <button class="button-reset" type="button" onclick="resetForm()">Reset</button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                ></path>
+              </svg>
+              <div class="text">Calculate</div>
+            </button>
+            <button class="button-reset" type="button" onclick="resetForm()">
+              Reset
+            </button>
           </div>
         </form>
       </section>
